@@ -1,0 +1,22 @@
+public class Nifty{
+
+double price;
+String name;
+double eps;
+double pe;
+
+public static void main(String[] args){
+	Nifty RIL = new Nifty();
+	
+	RIL.name = "Reliance Industries Ltd.";
+	RIL.price = 1160.30;
+	RIL.eps = 10.4;
+	RIL.pe = RIL.price/RIL.eps;
+	
+	System.out.println("The PE multiple of " + RIL.name + "is " + RIL.pe);
+	
+	NIFTY Infy = new Nifty();
+		
+  }
+
+}
