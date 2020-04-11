@@ -16,6 +16,14 @@ public static void main(String[] args){
 	System.out.println("The PE multiple of " + RIL.name + "is " + RIL.pe);
 	
 	NIFTY Infy = new Nifty();
+	
+	Nifty Infy = new Nifty();
+	Infy.name = "Infosys Ltd."
+	Infy.price = 2136.23
+	Infy.eps = 200.45
+	Infy.pe = Infy.price/Infy.eps;
+	
+	System.out.println("The PE multiple of " + Infy.name + "is " + Infy.pe);
 		
   }
 
